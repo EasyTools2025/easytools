@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EasyTools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="logo.png" alt="EasyTools Logo" style="display:block; margin:auto; width:120px;" />
+  <div class="card">
+    <h2>Step 1:</h2>
+    <p>Download AdsPower Browser from: <br><a href="https://adspower.com/download" target="_blank">https://adspower.com/download</a></p>
+
+    <h2>Step 2:</h2>
+    <p>Login using the following credentials:</p>
+    <input type="text" value="easytools22@outlook.com" id="email" readonly>
+    <button onclick="copy('email')">Copy</button>
+    <input type="text" value="%1?QbzS1" id="password" readonly>
+    <button onclick="copy('password')">Copy</button>
+
+    <h2>Step 3:</h2>
+    <p>Click the button below to reveal your 2FA code.</p>
+    <button onclick="getCode()">Get 2FA Code</button>
+    <div id="codeArea"></div>
+
+    <h2>Step 4:</h2>
+    <p>Click “Open” on the profile named <strong>Easy Tools</strong>.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
